@@ -1,7 +1,9 @@
-docxtpl
-Jinja2
-lxml
-openpyxl
-pandas
+Streamlit
+Pandas
+Openpyxl
+Docxtpl
 python-docx
-streamlit
+jinja2
+lxml
+numpy
+pillow
