@@ -1,7 +1,7 @@
-Streamlit
-Pandas
-openpyxl
-Docxtpl
+streamlit
+pandas
+openpyxl==3.1.2
+docxtpl
 python-docx
 jinja2
 lxml
