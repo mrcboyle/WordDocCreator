@@ -1,6 +1,6 @@
 Streamlit
 Pandas
-Openpyxl
+openpyxl
 Docxtpl
 python-docx
 jinja2
