@@ -1,7 +1,7 @@
-docxtpl==0.20.1
-Jinja2==3.1.2
-lxml==6.0.2
+docxtpl
+Jinja2
+lxml
 openpyxl
-pandas==2.3.3
-python-docx==1.2.0
-streamlit==1.50.0
+pandas
+python-docx
+streamlit
