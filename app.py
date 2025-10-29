@@ -35,7 +35,7 @@ if excel_file and template_file:
 
         with ZipFile(zip_buffer, "w") as zip_file:
             for _, row in df.iterrows():
-                context = row.to_dict()
+                context = row.fillna("").to_dict() #fixes pandas NaN issue where blank values are retuned as NotaNumber
                 doc = DocxTemplate(template_file)
                 doc.render(context)
 
